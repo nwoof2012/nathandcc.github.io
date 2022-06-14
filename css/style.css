@@ -42,6 +42,7 @@ header {
     height: 100%;
     display: flex;
     justify-content: center;
+    grid-area: header;
 }
 
 header img {
@@ -52,6 +53,7 @@ nav {
     background: #000;
     display: flex;
     justify-content: center;
+    grid-area: nav;
 }
 
 #menu {
@@ -76,6 +78,7 @@ article {
     margin: 0;
     padding: 0;
     background: rgba(0,0,0,0.5);
+    grid-area: article;
 }
 
 .box {
@@ -85,4 +88,10 @@ article {
     width: 50vw;
     background: #000;
     color: #FFF;
+}
+
+footer {
+    background: #000;
+    color: #FFF;
+    grid-area: footer;
 }

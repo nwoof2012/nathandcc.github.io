@@ -65,6 +65,7 @@ nav {
 #menu div a {
     margin: 0;
     padding: 14px 16px;
+    display: block;
     color: #FFF;
     text-decoration: none;
     transition: 0.25s color;

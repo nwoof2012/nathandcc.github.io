@@ -84,6 +84,8 @@ article {
 .box {
     margin-left: 20vw;
     margin-right: 20vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
     padding: 5vw;
     width: 50vw;
     background: #000;

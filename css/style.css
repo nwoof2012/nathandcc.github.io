@@ -110,6 +110,41 @@ article {
     font-size: 16pt;
 }
 
+p.centered {
+    text-align: center;
+}
+
+.objpanel {
+    width: calc(100% - 10vh);
+    height: calc(235px - 10vh);
+    background: #444;
+    border: 0.1vh solid #222;
+    border-radius: 2vh;
+    margin: 1vh;
+    padding: 4vh;
+    display: flex;
+    vertical-align: center;
+}
+
+.objpanel img {
+    width: 30vh;
+    height: 30vh;
+    flex: 25%;
+}
+
+.objpanel span {
+    font-family: ubuntu1;
+    color: #B0B0B0;
+    font-size: 16pt;
+    flex: 75%;
+    margin-left: 2vh;
+}
+
+.objpanel span a {
+    color: #0F0;
+    text-decoration: none;
+}
+
 footer {
     background: #000;
     color: #FFF;

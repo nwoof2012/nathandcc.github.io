@@ -69,7 +69,8 @@ nav {
 
 #menu div a {
     margin: 0;
-    padding: 14px 16px;
+    font-size: 25px;
+    padding: 23px;
     display: block;
     color: #FFF;
     text-decoration: none;

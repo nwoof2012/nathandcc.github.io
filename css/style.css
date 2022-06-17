@@ -51,7 +51,7 @@ header img {
     position: relative;
     left: 25vw;
     width: 50vw;
-    height: calc(50vw * (1609/2207));
+    height: calc(50vw * (609/2207));
 }
 
 nav {

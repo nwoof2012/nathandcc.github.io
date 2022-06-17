@@ -15,7 +15,7 @@ body {
     "article article"
     "footer footer";
     grid-template-columns: 1fr 350px;
-    grid-template-rows: 850px 75px 1fr 75px;
+    grid-template-rows: 100vh 75px 1fr 75px;
 }
 
 #background {

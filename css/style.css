@@ -100,6 +100,11 @@ article {
     color: #FFF;
 }
 
+.box hr {
+    width: 10%;
+    border: 0.1vh solid #777;
+}
+
 .box h1 {
     font-family: ubuntu1;
     font-size: 50pt;

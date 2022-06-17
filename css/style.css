@@ -130,6 +130,7 @@ footer #social-footer {
 #social-footer div a {
     margin: 0;
     padding: 10px;
+    display: block;
 }
 
 #social-footer div a img {

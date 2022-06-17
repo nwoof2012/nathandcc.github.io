@@ -47,10 +47,8 @@ header {
 
 header img {
     display: block;
-    max-width: 50vw;
-    max-height: calc(50vw * 1609px/2207px);
-    width: auto;
-    height: auto;
+    width: 50vw;
+    height: calc(50vw * 1609px/2207px);
 }
 
 nav {

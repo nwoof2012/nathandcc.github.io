@@ -49,7 +49,7 @@ header {
 header img {
     display: block;
     position: relative;
-    left: 25vh;
+    left: 25vw;
     width: 50vw;
     height: calc(50vw * (1609/2207));
 }

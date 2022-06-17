@@ -48,7 +48,7 @@ header {
 header img {
     display: block;
     width: 50vw;
-    height: calc(50vw * 1609px/2207px);
+    height: calc(50vw * (1609/2207));
 }
 
 nav {

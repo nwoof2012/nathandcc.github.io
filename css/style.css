@@ -15,7 +15,7 @@ body {
     "article article"
     "footer footer";
     grid-template-columns: 1fr 350px;
-    grid-template-rows: 100vh 75px 1fr 75px;
+    grid-template-rows: 100vh 75px 1fr 100px;
 }
 
 #background {
@@ -75,6 +75,7 @@ nav {
     color: #FFF;
     text-decoration: none;
     transition: 0.25s color;
+    font-family: ubuntu1;
 }
 
 #menu div a:hover {
@@ -99,8 +100,51 @@ article {
     color: #FFF;
 }
 
+.box h1 {
+    font-family: ubuntu1;
+    font-size: 50pt;
+}
+
+.box p {
+    font-family: ubuntu1;
+    font-size: 16pt;
+}
+
 footer {
     background: #000;
     color: #FFF;
     grid-area: footer;
+}
+
+footer #social-footer {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#social-footer div {
+    margin: 0;
+    padding: 0;
+}
+
+#social-footer div a {
+    margin: 0;
+    padding: 10px;
+}
+
+#social-footer div a img {
+    width: 32px;
+    height: 32px;
+}
+
+footer #tag {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-family: ubuntu1;
+}
+
+@font-face {
+    font-family: ubuntu1;
+    src: url("../fnt/UbuntuMono-R.ttf");
 }
